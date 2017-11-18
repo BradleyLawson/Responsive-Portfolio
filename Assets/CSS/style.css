@@ -1,0 +1,318 @@
+body{
+	font-family: Georgia;
+	margin:0;
+	margin-top:16px;
+	height: 150vh;
+	position: relative;
+	background: #F4F4F4;
+}
+nav{
+	position: absolute;
+	top: -20px;
+	right:0;
+	left: 0;
+	background:#373737;
+	width:100%;
+	height: 60px;
+	border-bottom: 2px solid #C0B283;
+}
+.navContainer{
+	width: 960px;
+	margin: 0px auto;
+}
+#leftBrand{
+	float:left;
+	padding: 15px 20px 15px 20px;
+	background-color: white;
+	margin-top:8px;
+	color: #373737;
+	text-decoration: none;
+	font-weight: bold;
+	border-left: 2px solid #C0B283;
+	border-right: 2px solid #C0B283;
+
+}
+#rightLinks a{
+	float: right;
+	padding: 15px 20px 15px 20px;
+	margin-top: 8px;
+	color: #C0B283;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.bodyContainer{
+	width: 960px;
+	margin: 0px auto;
+}
+section{
+	width: 646px;
+	float: left;
+	clear: both;
+	border: 2px solid #C0B283;
+	margin-top: 75px;
+	margin-right:20px;
+	color: #373737;
+	background-color: white;
+}
+section h2{
+	padding-left: 30px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	float:left;
+	padding: 10px 10px 10px 10px;
+}
+.formContainer{
+	padding: 30px;
+}
+.input{
+	width: 100%;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+}
+#alignPictures{
+	width: 70%;
+	margin: 0 auto;
+}
+.caption{
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.hangman{
+	position: absolute; 
+	left:10.5px;
+	top:130px;
+	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.rpgGame{
+	position: absolute; 
+	left:230px;
+	top:130px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.triviaGame{
+	position: absolute; 
+	left:10.5px;
+	top:340px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.rutgers{
+	position: absolute; 
+	left:230px;
+	top:340px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.rockPaperScissors{
+	position: absolute; 
+	left:10.5px;
+	top:580px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+aside{
+	width: 266px;
+	float: left;
+	border: 2px solid #C0B283;
+	margin-left: 20px;
+	margin-top:75px;
+	background-color: white;
+}
+aside h2{
+	text-align: center;
+	
+}
+aside img{
+	width: 60px;
+	height: 60px;
+	display: inline block;
+	text-align: center;
+}
+hr{
+	width: 90%;
+	border-color: #C0B283;
+}
+p{
+	padding: 0 10px 0 10px;
+	font-weight: bold;
+	color: #373737;
+}
+#sticky {
+  width:100%;
+  height:44px;
+  padding-top:20px;
+  background:#373737;
+  color:white;
+  font-weight:bold;
+  font-size:12px;
+  text-align:center;
+  position: fixed; /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body/page*/
+  left:0;            /*and to the left of the body/page.*/
+  border-top: 2px solid #C0B283;
+  display: block;
+}
+@media screen and (max-width: 959px){
+	.navContainer{
+		width: 100%;
+	}
+	.bodyContainer{
+		width: 100%;
+	}
+	section{
+		width: 60%;
+		margin-bottom: 100px;
+	}
+	.hangman{
+	position: absolute; 
+	left:10.5px;
+	top:130px;
+	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.rpgGame{
+	position: absolute; 
+	left:10.5px;
+	top:360px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.triviaGame{
+	position: absolute; 
+	left:10.5px;
+	top:580px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.rutgers{
+	position: absolute; 
+	left:10.5px;
+	top:800px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+
+.rockPaperScissors{
+	position: absolute; 
+	left:10.5px;
+	top:1020px;
+   	width: 200px;
+   	background-color: #373737;
+   	text-align: center;
+   	opacity: .8;
+   	color: #C0B283;
+}
+	aside{
+		width: 30%;
+	}
+	aside img{
+	width: 50px;
+	height: 50px;
+	display: inline block;
+	text-align: center;
+}
+}
+@media screen and (max-width: 768px){
+	.navContainer{
+		width: 100%;
+	}
+	.bodyContainer{
+		width: 100%;
+	}
+	section{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 640px){
+	nav{
+		width: 100%;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.navContainer{
+		width: 100%;
+	}
+	#leftBrand{
+		width: 100%;
+		display: block;
+	}
+
+#rightLinks {
+	color: #C0B283;
+	text-decoration: none;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	
+	
+	}
+#rightLinks a{
+	float: none;
+	display: inline-block;
+	overflow: hidden;
+}
+	
+	
+	.bodyContainer{
+		width: 100%;
+	}
+	section{
+		width: 100%;
+		margin-top: 0px;
+		padding-top: 20px;
+	}
+	aside{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 200px;
+	}
+
+}
